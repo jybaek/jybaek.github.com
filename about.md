@@ -1,11 +1,24 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: post
+categories: intro 
+title:  "About"
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+## Who is jybaek?
+* South Korea developer. 
+* Developed with Embedded Linux application. 
+* Developed with Embedded Linux Kernel.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+see more [Personal Blog](http://jybaek.tistory.com/)
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+----
+## History
+* 03-Mar-2003 University Admissions
+* 25-Feb-2010 University graduate
+* 15-Mar-2010 Join the FutureSystems Inc. (firewall)
+* 30-Sep-2015 Leave the FutureSystems Inc. (firewall)
+* 05-Oct-2015 Join the Jiransecurity Co.,Ltd. (E-mail security)
+
+----
+## thanks
+
