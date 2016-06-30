@@ -1,6 +1,5 @@
 ---
 layout: post
-categories: intro 
 title:  "About"
 ---
 

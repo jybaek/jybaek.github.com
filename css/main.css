@@ -175,6 +175,14 @@ a:visited { color: #205caa; }
   font-weight: 300;
 }
 
+.post-header h2 {
+  font-size: 22px;
+  color: #1E96ff;
+  letter-spacing: -0.75px;
+  line-height: 1;
+  font-weight: 300;
+}
+
 .post-header .meta {
   font-size: 15px;
   color: #818181;
