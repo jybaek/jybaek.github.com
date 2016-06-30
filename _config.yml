@@ -1,5 +1,7 @@
 # Site settings
 title: jybaek.github.io 
+home: http://jybaek.github.io
+stackoverflow: http://stackoverflow.com/users/4599185/baek-jae-yeon
 email: oops.jybaek@gmail.com 
 description: ""
 baseurl: ""
