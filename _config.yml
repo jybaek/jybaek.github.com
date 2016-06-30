@@ -1,0 +1,27 @@
+# Site settings
+title: jybaek.github.io 
+email: oops.jybaek@gmail.com 
+description: ""
+baseurl: ""
+url: "http://yourdomain.com"
+github_username:  jybaek
+facebook_username: WeGuardia
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "tables"]
+
+highlighter: pygments
+
+permalink: pretty
+
+safe: true
+lsi: true
+
+gems:
+  - jekyll-redirect-from
+  - jemoji
