@@ -28,7 +28,7 @@ int main(void)
 
     str = (char *)malloc(10);
     strncpy(str, "test", strlen("test"));
-    printf("str(%s)(%x) \n", str); #pointer use 0x1562010 address
+    printf("str(%s)(%x) \n", str); // pointer use 0x1562010 address
 
     /* 억지스럽게 같은 영역을 사용하기 위해 str의 주소를 가져온다. */
     addr = (int *)str;
