@@ -13,24 +13,24 @@ github에서 사용하기 위한 절차를 살펴보도록 한다.
 
 ## [analytics](https://www.google.com/analytics/)에 접속해서 계정을 생성한다
 ----
-<img src="/image/20160704/이미지_2016-07-04_09_11_15.png"  style="max-width:100%;max-height:100%;">
+<img src="/image/20160704/2016-07-04_09_11_15.png"  style="max-width:100%;max-height:100%;">
 
 ## 우측에 **가입** 버튼을 선택한다.
 ----
-<img src="/image/20160704/이미지_2016-07-04_09_12_38.png" style="max-width:100%;max-height:100%;">
+<img src="/image/20160704/2016-07-04_09_12_38.png" style="max-width:100%;max-height:100%;">
 
 ## 필요한 정보를 입력하고 **추적 ID가져오기**를 선택한다.
 ----
-<img src="/image/20160704/이미지_2016-07-04_09_14_59.png" style="max-width:100%;max-height:100%;">
-<img src="/image/20160704/이미지_2016-07-04_09_15_28.png" style="max-width:100%;max-height:100%;">
+<img src="/image/20160704/2016-07-04_09_14_59.png" style="max-width:100%;max-height:100%;">
+<img src="/image/20160704/2016-07-04_09_15_28.png" style="max-width:100%;max-height:100%;">
 
 ## 약관에 동의하도록 한다.
 ----
-<img src="/image/20160704/이미지_2016-07-04_09_15_56.png" style="max-width:100%;max-height:100%;">
+<img src="/image/20160704/2016-07-04_09_15_56.png" style="max-width:100%;max-height:100%;">
 
 ## **추적 ID**와 **script**를 저장하도록 한다. 
 ----
-<img src="/image/20160704/이미지_2016-07-04_09_16_59.png" style="max-width:100%;max-height:100%;">
+<img src="/image/20160704/2016-07-04_09_16_59.png" style="max-width:100%;max-height:100%;">
 
 ## 이제 **_config.yml**에 **추적ID**를 추가하자.
 ----
