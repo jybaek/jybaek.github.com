@@ -9,6 +9,7 @@ baseurl: ""
 url: "http://yourdomain.com"
 github_username:  jybaek
 facebook_username: WeGuardia
+google_analytics_id: UA-80265650-1
 
 # Build settings
 markdown: kramdown
