@@ -7,8 +7,16 @@ title:  "About"
 * South Korea developer. 
 * Developed with Embedded Linux application. 
 * Developed with Embedded Linux Kernel.
+* see more [Personal Blog](http://jybaek.tistory.com/)
 
-see more [Personal Blog](http://jybaek.tistory.com/)
+----
+## Techincal Skills
+* Linux kernel programming
+* C/C++, Multi thread programming, Socket programming, Etc..
+* PHP, Python, Shell Script
+* Linux, CentOS, Ubuntu
+* MySQL, MongoDB
+* subversion, git
 
 ----
 ## History
@@ -19,5 +27,5 @@ see more [Personal Blog](http://jybaek.tistory.com/)
 * 05-Oct-2015 Join the [Jiransecurity Co.,Ltd.](https://www.jiransecurity.com) (E-mail security)
 
 ----
-## thanks
+## Thanks
 

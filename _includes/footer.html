@@ -2,42 +2,33 @@
 
   <div class="wrap">
 
-    <h2 class="footer-heading">{{ site.admin }}</h2>
+    <h2 class="footer-heading">Contact Me</h2>
 
     <div class="footer-col-1 column">
       <ul>
 	    <!-- http://fontawesome.io/icons/ -->
         {% if site.email %}
-		  <li>
 			<a href="mailto:{{ site.email }}">
 			  <i class="fa fa-mail-forward"></i> E-mail
 			</a>
-		  </li>
 		{% endif %} 
         {% if site.github_username %}
-		  <li>
 			<a href="https://github.com/{{ site.github_username }}">
 			  <i class="fa fa-github"></i> GitHub
 			</a>
-		  </li>
 		{% endif %} 
+		<!--
 		{% if site.facebook_username %}
-		  <li>
 			<a href="https://www.facebook.com/{{ site.facebook_username }}">
 			  <i class="fa fa-facebook"></i> Facebook
 			</a>
-		  </li>
 		{% endif %}
+		-->
       </ul>
     </div>
 
     <div class="footer-col-2 column">
-      <ul>
-      </ul>
-    </div>
-
-    <div class="footer-col-3 column">
-      <p class="text">{{ site.description }}</p>
+		  <p class="text">{{ site.description }}</p>
     </div>
 
   </div>
