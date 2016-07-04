@@ -17,7 +17,7 @@ eth0가 사라지고 eth1가 생긴다.
 해결 방법은 아래 파일을 직접 수정하는 것이다..  
 >/etc/udev/rules.d/70-persistent-net.rules   
 
-![image](/image/rule.png)
+<img src="/image/rule.png"  style="max-width:100%;max-height:100%;">
 
 eth0의 MAX주소가 원본 이미지와 동일하다. 그래서 부팅 시에 인터페이스 생성에 실패하고 다음 인터페이스인 eth1을 생성했던 것이다..
 **이제 eth0 부분을 삭제하고 NAME="eth1"을 NAME="eth0"로 수정**하도록 한다..
