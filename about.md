@@ -19,6 +19,13 @@ title:  "About"
 * MySQL, MongoDB
 * subversion, git
 
+## Interest
+----
+* Opensource customizing
+* Automation of development
+* memory optimization  
+* Faster processing
+
 ## History
 ----
 * 03-Mar-2003 University Admissions
