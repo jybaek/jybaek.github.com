@@ -42,8 +42,9 @@ int main(void)
 }
 {% endhighlight %}
 
-두 곳에서 printf를 통해 출력했는데 결과는 어떨까? 
->**root@localhost#** ./a.out   
+두 곳에서 printf를 통해 출력했는데 결과는 어떨까?  
+
+>**root@localhost#** ./a.out  
 str(test)(1562010)   
 str(good afternoon)(1562010)
 
