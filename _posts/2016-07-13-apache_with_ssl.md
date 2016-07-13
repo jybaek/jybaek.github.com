@@ -30,7 +30,7 @@ title:  "Fix apache with SSL compile error"
 	$ make 
 	$ cd .. 
 
-## mod_ssl을 cinfigure하고 apache를 빌드한다.
+## mod_ssl을 configure하고 apache를 빌드한다.
 ----
 	$ cd mod_ssl-2.8.31-1.3.41  
 	$ ./configure \  
