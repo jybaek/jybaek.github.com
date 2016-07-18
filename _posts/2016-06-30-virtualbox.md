@@ -15,6 +15,7 @@ eth0가 사라지고 eth1가 생긴다.
 (32bit 복제 시에는 문제 없음)  
 
 해결 방법은 아래 파일을 직접 수정하는 것이다..  
+
 >/etc/udev/rules.d/70-persistent-net.rules   
 
 <img src="/image/rule.png"  style="max-width:100%;max-height:100%;">
