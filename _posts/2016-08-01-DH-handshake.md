@@ -15,12 +15,12 @@ RSA방식 처럼 *client hello*는 protocol version, random, cipher suites 목�
 
 
 #### **Message 3: "Server Key Exchange"**
-*Diffie-Hellman*은 key 교환을 시작할 목적으로 서버는 약간의 시작 파라메터가 필요하고, 그것을 client에게 전송한다. --- 이것은 \\(\mathbf{g^a}\\)에 해당한다. 서버는 또한 입증하기 위한 방법이 필요하다. 그것은 개인키의 제어이다. 그래서 서버는 이 시점까지의 모든 메시지의 전자서명을 계산한다. *Diffie-Hellman* 파라메터와 서명은 이 메시지에 모두 전송된다.  
+*Diffie-Hellman*은 key 교환을 시작할 목적으로 서버는 약간의 시작 파라메터가 필요하고, 그것을 client에게 전송한다. --- 이것은 \\(g^a\\)에 해당한다. 서버는 또한 입증하기 위한 방법이 필요하다. 그것은 개인키의 제어이다. 그래서 서버는 이 시점까지의 모든 메시지의 전자서명을 계산한다. *Diffie-Hellman* 파라메터와 서명은 이 메시지에 모두 전송된다.  
 
 #### **Message 4: "Client Key Exchange"**
-검증이 끝난 인증서는 신뢰하고, client는 server로부터 온 전자서명이 연결하려고 시도하는 위치에 속하는지 유효성을 검사한다. 또한 client는 *Diffie-Hellman*의 나머지 절반을 전송한다. ( \\(\mathbf{g^b}\\)에 상응하는)  
+검증이 끝난 인증서는 신뢰하고, client는 server로부터 온 전자서명이 연결하려고 시도하는 위치에 속하는지 유효성을 검사한다. 또한 client는 *Diffie-Hellman*의 나머지 절반을 전송한다. ( \\(g^b\\)에 상응하는)  
 
-이 시점에 양쪽은 *Diffie-Hellman* 파라메터의 pre-master secret을 계산한다. ( \\(\mathbf{g^{ab}}\\)에 상응하는 ). pre-master secret으로 client와 server는 동일한 세션키를 사용할 수 있다. client와 server는 다음 메시지부터 암호화될 것이라는 것이 표시된 메시지를 교환한다.   
+이 시점에 양쪽은 *Diffie-Hellman* 파라메터의 pre-master secret을 계산한다. ( \\(g^{ab}\\)에 상응하는 ). pre-master secret으로 client와 server는 동일한 세션키를 사용할 수 있다. client와 server는 다음 메시지부터 암호화될 것이라는 것이 표시된 메시지를 교환한다.   
 
 *RSA handhake*처럼 *Diffie-Hellman handshake*도 client와 server가 "Finished" 메시지를 교환할때까지 공식적으로 완전하다. 이후 client와 server의 통신은 세션키와 함께 암호화 된다.  
 
