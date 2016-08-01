@@ -15,6 +15,7 @@ google_analytics_id: UA-80265650-1
 # Build settings
 markdown: kramdown
 permalink: pretty
+mathjax: true
 
 kramdown:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "tables", "footnotes"]
