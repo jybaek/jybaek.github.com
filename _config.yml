@@ -19,7 +19,6 @@ permalink: pretty
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  mathjax: true
 
 highlighter: rouge
 
