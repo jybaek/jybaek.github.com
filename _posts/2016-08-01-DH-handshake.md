@@ -5,6 +5,21 @@ title:  "SSL Handshake (Diffie-Hellman)"
 ---
 
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        //inlineMath: [ ['$', '$'], ["\(", "\)"] ],
+        inlineMath: [ ['$', '$'] ],
+        displayMath: [ ['$$', '$$'] ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+      //,
+      //displayAlign: "left",
+      //displayIndent: "2em"
+    });
+</script>
 #### **Message 1: "Client Hello"**
 RSA방식 처럼 *client hello*는 protocol version, random, cipher suites 목록, 그리고 선택적으로 SNI(Server Name Indication)를 확장할 수 있다. 만약 client가 ECDHE를 사용하려면 지원하는 목록을 포함해야 한다. 만약 생략되거나 부정확하다면 디버깅 하기 곤란할 것이다.  
 
