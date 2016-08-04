@@ -40,6 +40,7 @@ title:  "Kali Linux에 Docker 설치"
 
 6.*/etc/apt/sources.list.d/docker.list* 파일을 에디터로 열도록 한다. (파일이 없다면 생성해주면 되고, 내용이 있다면 삭제하도록 하자)  
 OS의 종류에 따라 아래 내용을 입력하도록 하자.
+
 On Debian Wheezy  
 
 `$ deb https://apt.dockerproject.org/repo debian-wheezy main`  
