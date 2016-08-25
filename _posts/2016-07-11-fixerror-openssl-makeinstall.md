@@ -17,19 +17,19 @@ title:  "OpenSSL make install 오류"
 
 >installing man3/SSL_write.3  
 making install in crypto...  
-make[1]: Entering directory \`/root/link/openssl-1.0.2h/crypto'  
-cp: cannot create regular file \`./build/include/openssl/crypto.h': No such file or directory  
-chmod: cannot access \`./build/include/openssl/crypto.h': No such file or directory  
-cp: cannot create regular file \`./build/include/openssl/opensslv.h': No such file or directory  
-chmod: cannot access \`./build/include/openssl/opensslv.h': No such file or directory  
-cp: cannot create regular file \`./build/include/openssl/opensslconf.h': No such file or directory  
-chmod: cannot access \`./build/include/openssl/opensslconf.h': No such file or directory  
-cp: cannot create regular file \`./build/include/openssl/ebcdic.h': No such file or directory  
-chmod: cannot access \`./build/include/openssl/ebcdic.h': No such file or directory  
-cp: cannot create regular file \`./build/include/openssl/symhacks.h': No such file or directory  
-chmod: cannot access \`./build/include/openssl/symhacks.h': No such file or directory  
-cp: cannot create regular file \`./build/include/openssl/ossl_typ.h': No such file or directory  
-chmod: cannot access \`./build/include/openssl/ossl_typ.h': No such file or directory  
+make[1]: Entering directory '/root/link/openssl-1.0.2h/crypto'  
+cp: cannot create regular file './build/include/openssl/crypto.h': No such file or directory  
+chmod: cannot access './build/include/openssl/crypto.h': No such file or directory  
+cp: cannot create regular file './build/include/openssl/opensslv.h': No such file or directory  
+chmod: cannot access './build/include/openssl/opensslv.h': No such file or directory  
+cp: cannot create regular file './build/include/openssl/opensslconf.h': No such file or directory  
+chmod: cannot access './build/include/openssl/opensslconf.h': No such file or directory  
+cp: cannot create regular file './build/include/openssl/ebcdic.h': No such file or directory  
+chmod: cannot access './build/include/openssl/ebcdic.h': No such file or directory  
+cp: cannot create regular file './build/include/openssl/symhacks.h': No such file or directory  
+chmod: cannot access './build/include/openssl/symhacks.h': No such file or directory  
+cp: cannot create regular file './build/include/openssl/ossl_typ.h': No such file or directory  
+chmod: cannot access './build/include/openssl/ossl_typ.h': No such file or directory  
 make[1]: *** [install] Error 1  
 make[1]: Leaving directory `/root/link/openssl-1.0.2h/crypto'  
 make: *** [install_sw] Error 1  
