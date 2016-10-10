@@ -18,6 +18,7 @@ title:  "About"
 * `Linux`, `CentOS`, `Ubuntu`
 * `MySQL`, `MongoDB`
 * `subversion`, `git`
+* `docker`, `tensorflow`
 
 ## **Interest**
 ----
