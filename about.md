@@ -3,12 +3,20 @@ layout: no_comment_post
 title:  "About"
 ---
 
-## **Who is jybaek?**
+<img src="https://avatars0.githubusercontent.com/u/10207709?v=3&s=466"  style="max-width:100%;max-height:100%;">
+
+## **Who is "JaeYeon Baek"?**
 ----
 * South Korea developer. 
 * Developed with Embedded Linux application. 
 * Developed with Embedded Linux Kernel.
 * see more [Personal Blog](http://jybaek.tistory.com/)
+{% if site.facebook_username %}
+* <a href="https://www.facebook.com/{{ site.facebook_username }}">
+<i class="fa fa-facebook"></i> facebook
+</a>
+{% endif %}
+
 
 ## **Techincal Skills**
 ----
