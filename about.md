@@ -5,7 +5,7 @@ title:  "About"
 
 <img src="https://avatars0.githubusercontent.com/u/10207709?v=3&s=466"  style="max-width:100%;max-height:100%;">
 
-## **Who is "JaeYeon Baek"?**
+## **Who is "Jaeyeon Baek"?**
 ----
 * South Korea developer. 
 * Developed with Embedded Linux application. 
