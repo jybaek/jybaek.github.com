@@ -19,17 +19,23 @@ title:  "도쿠위키 패스워드 분실"
 
 패스워드는 `conf/users.auth.php` 파일에 계정을 생성하거나 정보 변경 시에 아래와 같은 형태로 자동으로 기록된다.
 
-    jybaek:$1$test$nqEFoiSKcbjVQ1.f02YtG/:홍길동:jybaek@example.com:admin,user
+```
+jybaek:$1$test$nqEFoiSKcbjVQ1.f02YtG/:홍길동:jybaek@example.com:admin,user
+```
 
 하나씩 천천히 살펴보자. 일단 구분자는 `콜론(:)`이다. 문장을 뜯어서 보면 아래처럼 구분된다.
 
-    아이디:$hash함수$salt$패스워드:이름:이메일:그룹
+```
+아이디:$hash함수$salt$패스워드:이름:이메일:그룹
+```
 
 hash 함수 부분에 $1은 도쿠위키의 기본 패스워드 암호화 설정인 smd5 (salt + md5)를 나타낸다. 각각에 대한 것은 [여기](https://www.dokuwiki.org/config:passcrypt)서 확인하면 된다.
 
 그럼 salt 값을 줘서 임의의 패스워드를 생성해보자. 방법은 [stackexchange의 답변](http://unix.stackexchange.com/a/76337 )을 참조하도록 한다. 요즘 python이 핫하므로 python으로 테스트해본다.
 
-    python -c "import crypt, getpass, pwd; print crypt.crypt('admin', '\$1\$test\$')"
+```bash
+python -c "import crypt, getpass, pwd; print crypt.crypt('admin', '\$1\$test\$')"
+```
 
 `admin`이라는 문자열을 `test`라는 salt로 사용해서 $1(smd5)로 암호화 하라는 의미다.  
 이제 패스워드를 찾았으니 다시 도쿠위키를 즐기면 되겠다.
