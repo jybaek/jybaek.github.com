@@ -16,64 +16,81 @@ title:  "Kali Linux에 Docker 설치"
 1.*/etc/apt/sources.list.d/backports.list* 파일을 에디터로 열도록 한다. (파일이 없다면 생성해주면 되고, 내용이 있다면 삭제하도록 하자 )
 그리고 아래 내용을 입력 한다.  
 
-`$ deb http://http.debian.net/debian wheezy-backports main`   
+```bash
+$ deb http://http.debian.net/debian wheezy-backports main
+```
 
 2.package 정보를 업데이트 한다.  
 
-`$ apt-get update`  
+```bash
+$ apt-get update
+```
 
 3.오래된 repository를 삭제하도록 한다.  
 
-`$ apt-get purge "lxc-docker*"`  
+```bash
+$ apt-get purge "lxc-docker*"
+$ apt-get purge "docker.io*"
+```
 
-`$ apt-getpurge"docker.io*"`  
+4.package 정보를 업데이트하고 APT는 https로 통신되므로 CA 인증서를 인스톨 하도록 한다.  
 
-4.package 벙보를 업데이트하고 APT는 https로 통신되므로 CA 인증서를 인스톨 하도록 한다.  
-
-`$ apt-get update`
-
-`$ apt-getinstallapt-transport-https ca-certificates`  
+```bash
+$ apt-get update
+$ apt-get install apt-transport-https ca-certificates software-properties-common
+```
 
 5.GPG 키를 등록한다.
 
-` $ apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D`
+```bash
+$ apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+```
 
 6.*/etc/apt/sources.list.d/docker.list* 파일을 에디터로 열도록 한다. (파일이 없다면 생성해주면 되고, 내용이 있다면 삭제하도록 하자)  
 OS의 종류에 따라 아래 내용을 입력하도록 하자.
 
-On Debian Wheezy  
-
-`$ deb https://apt.dockerproject.org/repo debian-wheezy main`  
-
-On Debian Jessie  
-
-`$ deb https://apt.dockerproject.org/repo debian-jessie main`  
-
-On Debian Stretch/Sid  
-
-`$ deb https://apt.dockerproject.org/repo debian-stretch main`  
+```bash
+$ # On Debian Wheezy  
+$ deb https://apt.dockerproject.org/repo debian-wheezy main  
+$ # On Debian Jessie  
+$ deb https://apt.dockerproject.org/repo debian-jessie main
+$ # On Debian Stretch/Sid  
+$ deb https://apt.dockerproject.org/repo debian-stretch main
+```
 
 7.package의 index를 업데이트 하도록 한다.  
 
-`$ apt-get update`  
+```bash
+$ apt-get update
+```
 
 8.APT를 검증하고 docker-engine repositry를 받아오도록 한다.  
 
-`$apt-cache policy docker-engine`  
+```bash
+$ apt-cache policy docker-engine
+```
 
 ### **Install Docker**
 1.APT package의 index를 업데이트 하도록 한다.  
 
-`$ sudo apt-getupdate`    
+```bash
+$ sudo apt-getupdate
+```
 
 2.docker를 설치한다.   
 
-{%raw%}`$ sudo apt-get install docker-engine`{%endraw%}
+```bash
+$ sudo apt-get install docker-engine
+```
 
 3.docker를 시작한다.  
 
-`$ sudo service docker start`  
+```bash
+$ sudo service docker start
+```
 
 4.docker가 올바르게 설치되었는지 확인한다.  
 
-`$ sudo docker run hello-world`  
+```bash
+$ sudo docker run hello-world
+```
