@@ -17,7 +17,7 @@ title:  "[php] crul을 활용한 버스 도착 정보 크롤링"
 ### source code
 ----
 
-{% highlight php %}
+```php
 <?php
 /* FIXME. change strBusNumber !! */
 $url = "http://bus.go.kr/xmlRequest/getStationByUid.jsp?strBusNumber=23248";
@@ -64,16 +64,18 @@ function curl($url, $ref_url, $data)
 }
 $result = curl($url, $ref_url, $data);
 ?>
-{% endhighlight %}
+```
 
 리눅스 터미널에서 실행은.. 대략 이렇게 하면 된다.  
 
->while [ 1 ] ;do clear; **php bus.php**; sleep 5; done
+```bash
+$ while [ 1 ] ;do clear; **php bus.php**; sleep 5; done
+```
 
 ### 출력 결과
 ----
 
-~~~
+```bash
  ---------------------------------
 |  Bus : 143  
 |   1) 4분32초후[2번째 전]  
@@ -92,7 +94,7 @@ $result = curl($url, $ref_url, $data);
 |   2) 18분26초후[7번째 전]  
  ---------------------------------
 Wed May 25 16:44:49 KST 2016
-~~~
+```
 
 
 이제는 버스를 눈앞에서 놓치지 말고 잘 타서 즐거운 퇴근 길이 되어야겠다. 
