@@ -24,15 +24,15 @@ title:  "오픈소스 컨트리뷰트 하기"
 ## **push**
 branch에 대한 언급을 위한 글이 아니므로.. 우선 branch를 생성하는 방법은 다음으로 대체한다.
 
-```
-% git checkout -b [브랜치 이름] :
-% git checkout -b fixing_type_error
+```bash
+$ git checkout -b [브랜치 이름] :
+$ git checkout -b fixing_type_error
 ```
 
 branch가 되고 소스 수정까지 되었다면 이제 생성한 branch의 변경이력을 나의 저장소에 push하도록 한다.  
 
-```
-% git push -f origin fixing_type_error
+```bash
+$ git push -f origin fixing_type_error
 ```
 저장소에 branch가 없다면 생성까지 자동으로 된다.
 
