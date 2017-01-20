@@ -209,6 +209,7 @@ a:visited { color: #205caa; }
   line-height: 1;
   font-weight: 300;
   margin: 40px 0 20px;
+  font-size: inherit;
 }
 
 .post-content h2 {
