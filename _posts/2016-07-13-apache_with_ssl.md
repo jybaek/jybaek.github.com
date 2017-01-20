@@ -14,7 +14,7 @@ title:  "Fix apache with SSL compile error"
 
 요약해보면 아래와 같다.
 
-### apache, mod_ssl, openssl 파일을 준비한다.  
+## apache, mod_ssl, openssl 파일을 준비한다.  
 ```bash
 $ lynx http://httpd.apache.org/dist/httpd/apache_1.3.41.tar.gz  
 $ lynx ftp://ftp.modssl.org/source/mod_ssl-2.8.31-1.3.41.tar.gz  
@@ -24,7 +24,7 @@ $ gzip -d -c mod_ssl-2.8.31-1.3.41.tar.gz | tar xvf -
 $ gzip -d -c openssl-0.9.8g.tar.gz | tar xvf -  
 ```
 
-### OpenSSL 을 빌드한다. 
+## OpenSSL 을 빌드한다. 
 ```bash
 $ cd openssl-0.9.8g 
 $ ./config 
@@ -32,7 +32,7 @@ $ make
 $ cd .. 
 ```
 
-### mod_ssl을 configure하고 apache를 빌드한다.
+## mod_ssl을 configure하고 apache를 빌드한다.
 ```bash
 $ cd mod_ssl-2.8.31-1.3.41  
 $ ./configure \  
@@ -47,7 +47,7 @@ $ make install
 ```
 
 
-### 처리가 끝난 파일 삭제
+## 처리가 끝난 파일 삭제
 ```bash
 $ rm -rf apache_1.3.41  
 $ rm -rf mod_ssl-2.8.31-1.3.41  
@@ -55,7 +55,7 @@ $ rm -rf openssl-0.9.8g
 ```
 
 
-### SSL 옵션을 주고 apache 시작
+## SSL 옵션을 주고 apache 시작
 ```bash
 $ /usr/local/apache/bin/httpd -DSSL  
 $ netscape https://local-host-name/  
