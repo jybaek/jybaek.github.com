@@ -26,14 +26,16 @@ title:  "About"
 * `Linux`, `CentOS`, `Ubuntu`
 * `MySQL`, `MongoDB`
 * `subversion`, `git`
-* `docker`, `tensorflow`
+* `docker`, `TensorFlow`
 
 ## **Interest**
 ----
 * Opensource customizing
 * Automation of development
-* memory optimization  
+* Memory optimization  
 * Faster processing
+* Web crawler
+* Deep Learn
 
 ## **Time line**
 ----
