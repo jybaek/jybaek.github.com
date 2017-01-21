@@ -35,7 +35,7 @@ title:  "About"
 * Memory optimization  
 * Faster processing
 * Web crawler
-* Deep Learn
+* Deep Learning
 
 ## **Time line**
 ----
