@@ -6,5 +6,5 @@
 * [About](https://jybaek.github.io/about/)
 
 ### XXX.
-* 업데이트 중단
+* 업데이트 중단 (CSS 학습용도로 사용 예정)
 * 당분간 블로그는 [티스토리](http://jybaek.tistory.com)만 사용합니다..
