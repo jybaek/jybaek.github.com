@@ -9,7 +9,7 @@ title:  "슬랙봇 만들기"
 
 하지만 슬랙이 명성 높은데는 다 이유가 있다. 다른 APP들과 연동이 쉽고 많은 API를 제공하기 때문인데 그 중에 Bot을 생성할 수 있도록 도와주는 BOT API도 있다. 그렇다면 우리 기호에 맞도록 헬포봇을 만들어보자.
 
-우선 아래 https://api.slack.com/bot-users 를 통해 봇을 생성할 수 있는 페이지로 이동한다.
+우선 아래 여기 [링크](https://api.slack.com/bot-users)를 통해 봇을 생성할 수 있는 페이지로 이동한다.
 
 
 그리고 아래 화면에서 "creating a new bot user" 를 선택하도록 한다.
@@ -61,7 +61,7 @@ slack bot과 통신하기 위해 slack bot의 ID를 얻어와야 한다. 아래�
 ```
 
 이제 모든 준비가 끝났다. 아래 github 에 누군가 작성해놓은 slack bot 스크립트를 기반으로 입맛에 맞는 봇을 만들면 된다 ! 여기를 참고하도록 하자.
-https://github.com/mattmakai/slack-starterbot/blob/master/starterbot.py
+[https://github.com/mattmakai/slack-starterbot/blob/master/starterbot.py](https://github.com/mattmakai/slack-starterbot/blob/master/starterbot.py)
 
 예제를 참고해서 스크립트를 만들었으면 아래처럼 실행하도록 하자.
 ```bash
@@ -73,6 +73,6 @@ https://github.com/mattmakai/slack-starterbot/blob/master/starterbot.py
 
 덧. 위 내용은 아래 링크를 기반으로 재구성되었습니다.
 
-https://www.fullstackpython.com/blog/build-first-slack-bot-python.html
+[https://www.fullstackpython.com/blog/build-first-slack-bot-python.html](https://www.fullstackpython.com/blog/build-first-slack-bot-python.html)
 
 
