@@ -13,16 +13,16 @@ title:  "슬랙봇 만들기"
 
 
 그리고 아래 화면에서 "creating a new bot user" 를 선택하도록 한다.
-<img src="/image/20170127/이미지_2.png"  style="max-width:100%;max-height:100%;">
+<img src="/image/20170127/이미지_2.jpg"  style="max-width:100%;max-height:100%;">
 
 
 브라우저에 슬랙이 로그인되어 있었다면 자동으로 해당 슬랙쪽으로 이동이 될 것이고, 그렇지 않다면 봇을 생성할 슬랙에 로그인할 수 있는 페이지가 열릴 것이다. 
 
 그리고나면 Bot의 이름을 정할 수 있다. 이 이름을 통해 채널에 초대하거나 1:1 대화를 진행할 수 있다. 봇이라는 특성을 생각해서 가급적 쉬운 이름으로 지정하고 다음 단계를 진행하도록 하자.
-<img src="/image/20170127/이미지_3.png"  style="max-width:100%;max-height:100%;">
+<img src="/image/20170127/이미지_3.jpg"  style="max-width:100%;max-height:100%;">
 
 다음 단계는 Bot에 API Token을 얻고, 이미지를 입힐 수 있는 등의 Bot 설정 페이지다. 우선 언제든 수정 가능한 부분이므로 Token만 복사하고 넘어가도록 하자. (아래 save integration으로 저장해주면 된다.)
-<img src="/image/20170127/이미지_5.png"  style="max-width:100%;max-height:100%;">
+<img src="/image/20170127/이미지_5.jpg"  style="max-width:100%;max-height:100%;">
 
 
 이제 준비는 끝났다. 본격적으로 Bot을 코딩하면 된다. 위 Token은 슬랙와 Bot이 프로세싱되는 환경과의 연결을 도와줄 것이다.
