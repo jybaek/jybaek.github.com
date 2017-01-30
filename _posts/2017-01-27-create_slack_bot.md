@@ -53,7 +53,7 @@ $ source testbot/bin/activate
 (testbot) $ pip install slackclient
 ```
 
-slack bot과 통신하기 위해 slack bot의 ID를 얻어와야 한다. 아래와 같은 방식으로 얻어올 수 있다. 빨간색으로 마킹된 부분은 각자의 서버에 맞도록 설정해야 한다. token은 위에서 얻은 slack bot의 token을 사용하면 된다.
+slack bot과 통신하기 위해 slack bot의 ID를 얻어와야 한다. 아래와 같은 방식으로 얻어올 수 있다. token 부분은 각자의 서버에 맞도록 설정해야 한다. token은 위에서 얻은 slack bot의 token을 사용하면 된다.
 
 ```bash
 (testbot) $ curl https://NAME.slack.com/api/auth.test?token=xoxb-120374760084-IoTPIndlbOw8EpTy0JR
