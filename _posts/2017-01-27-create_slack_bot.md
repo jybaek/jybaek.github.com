@@ -21,13 +21,13 @@ title:  "슬랙봇 만들기"
 그리고나면 Bot의 이름을 정할 수 있다. 이 이름을 통해 채널에 초대하거나 1:1 대화를 진행할 수 있다. 봇이라는 특성을 생각해서 가급적 쉬운 이름으로 지정하고 다음 단계를 진행하도록 하자.
 <img src="/image/20170127/이미지_3.jpg"  style="max-width:100%;max-height:100%;">
 
-다음 단계는 Bot에 API Token을 얻고, 이미지를 입힐 수 있는 등의 Bot 설정 페이지다. 우선 언제든 수정 가능한 부분이므로 Token만 복사하고 넘어가도록 하자. (아래 `save integration`으로 저장해주면 된다.)
+다음 단계는 Bot에 API Token을 얻고, 이미지를 입힐 수 있는 등의 Bot 설정 페이지다. 우선 언제든 수정 가능한 부분이므로 Token만 복사하고 넘어가도록 하자. (아래 **`save integration`**으로 저장해주면 된다.)
 <img src="/image/20170127/이미지_5.jpg"  style="max-width:100%;max-height:100%;">
 
 
 이제 준비는 끝났다. 본격적으로 Bot을 코딩하면 된다. 위 Token은 슬랙와 Bot이 프로세싱되는 환경과의 연결을 도와줄 것이다.
 
-이제는 본격적인 Bot coding을 진행해야 한다. 일단 적당한 서버를 준비하고 slack api를 설치하도록 해야하는데, 이때는 python을 사용하도록 한다. python으로 프로세스를 동작시키는 방법은 여러가지가 있지만 여기서는 virtualenv라는 기법을 사용한다. virtualenv에 대해 간단히 소개하자면, 서버에 여러 종류의 python 설치와 라이브러리 호환등의 충돌에 대비해 프로세스를 동작시키는 독립적인 환경을 구축하는 것이다.
+이제는 본격적인 Bot coding을 진행해야 한다. 일단 적당한 서버를 준비하고 slack api를 설치하도록 해야하는데, 이때는 python을 사용하도록 한다. python으로 프로세스를 동작시키는 방법은 여러가지가 있지만 여기서는 **virtualenv**라는 기법을 사용한다. virtualenv에 대해 간단히 소개하자면, 서버에 여러 종류의 python 설치와 라이브러리 호환등의 충돌에 대비해 프로세스를 동작시키는 독립적인 환경을 구축하는 것이다.
 
 터미널에서 아래 명령어를 실행하도록 하자. 여기서는 **`testbot`** 이라는 이름으로 구축했다.
 
@@ -47,7 +47,7 @@ $ source testbot/bin/activate
 (testbot) $
 ```
 
-이제 가상환경에 접속되었으니 이곳에 slack api를 설치하도록 한다.
+이제 가상환경에 접속되었으니 이곳에 **`slack api`**를 설치하도록 한다.
 
 ```bash
 (testbot) $ pip install slackclient
