@@ -62,7 +62,7 @@ slack bot과 통신하기 위해 slack bot의 ID를 얻어와야 한다. 아래�
 결과는 json 형태로 출력되는데 "user_id":"U3JBON2.." 로 되어 있는 부분에서 U3JBON2... 를 복사해서 앞으로 사용하게 되겠다. 아래와 같이 환경변수를 설정해주도록 한다.
 
 ```bash
-(testbot) $ export SLACK_BOT_TOKEN=''xoxb-120374760084-IoTPIndlbOw8EpTy0JR"
+(testbot) $ export SLACK_BOT_TOKEN='xoxb-120374760084-IoTPIndlbOw8EpTy0JR'
 (testbot) $ export BOT_ID='U3JBON2'
 ```
 
