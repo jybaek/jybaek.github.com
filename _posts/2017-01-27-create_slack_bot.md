@@ -30,31 +30,37 @@ title:  "슬랙봇 만들기"
 이제는 본격적인 Bot coding을 진행해야 한다. 일단 적당한 서버를 준비하고 slack api를 설치하도록 해야하는데, 이때는 python을 사용하도록 한다. python으로 프로세스를 동작시키는 방법은 여러가지가 있지만 여기서는 virtualenv라는 기법을 사용한다. virtualenv에 대해 간단히 소개하자면, 서버에 여러 종류의 python 설치와 라이브러리 호환등의 충돌에 대비해 프로세스를 동작시키는 독립적인 환경을 구축하는 것이다.
 
 터미널에서 아래 명령어를 실행하도록 하자. 여기서는 testbot 이라는 이름으로 구축했다.
+
 ```bash
 $ virtualenv testbot
 ```
 
 구축된 환경으로 접속은 아래와 같이 실행한다.
+
 ```bash
 $ source testbot/bin/activate
 ```
 
 명령어를 실행하면 프롬프트 앞에 (testbot) 이 추가된 것을 확인할 수 있다.
+
 ```bash
 (testbot) $
 ```
 
 이제 가상환경에 접속되었으니 이곳에 slack api를 설치하도록 한다.
+
 ```bash
 (testbot) $ pip install slackclient
 ```
 
 slack bot과 통신하기 위해 slack bot의 ID를 얻어와야 한다. 아래와 같은 방식으로 얻어올 수 있다. 빨간색으로 마킹된 부분은 각자의 서버에 맞도록 설정해야 한다. token은 위에서 얻은 slack bot의 token을 사용하면 된다.
+
 ```bash
 (testbot) $ curl https://NAME.slack.com/api/auth.test?token=xoxb-120374760084-IoTPIndlbOw8EpTy0JR
 ```
 
 결과는 json 형태로 출력되는데 "user_id":"U3JBON2.." 로 되어 있는 부분에서 U3JBON2... 를 복사해서 앞으로 사용하게 되겠다. 아래와 같이 환경변수를 설정해주도록 한다.
+
 ```bash
 (testbot) $ export SLACK_BOT_TOKEN=''xoxb-120374760084-IoTPIndlbOw8EpTy0JR"
 (testbot) $ export BOT_ID='U3JBON2'
@@ -64,6 +70,7 @@ slack bot과 통신하기 위해 slack bot의 ID를 얻어와야 한다. 아래�
 [https://github.com/mattmakai/slack-starterbot/blob/master/starterbot.py](https://github.com/mattmakai/slack-starterbot/blob/master/starterbot.py)
 
 예제를 참고해서 스크립트를 만들었으면 아래처럼 실행하도록 하자.
+
 ```bash
 (testbot) $ python testbot.py
 ```
