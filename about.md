@@ -37,6 +37,9 @@ title:  "About"
 * Web crawler
 * Deep Learning
 
+## **translate**
+* [TensorFlow API Documents](https://github.com/tensorflowkorea/tensorflow-kr/pulls?q=is%3Apr+author%3Ajybaek+is%3Aclosed)
+
 ## **Time line**
 ----
 * `03-Mar-2003` University Admissions
