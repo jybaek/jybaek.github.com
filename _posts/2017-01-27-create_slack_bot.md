@@ -44,7 +44,7 @@ $ source testbot/bin/activate
 명령어를 실행하면 프롬프트 앞에 (testbot) 이 추가된 것을 확인할 수 있다.
 
 ```bash
-(testbot) $
+(testbot) $ 
 ```
 
 이제 가상환경에 접속되었으니 이곳에 **`slack api`**를 설치하도록 한다.
