@@ -69,7 +69,7 @@ $result = curl($url, $ref_url, $data);
 리눅스 터미널에서 실행은.. 대략 이렇게 하면 된다.  
 
 ```bash
-$ while [ 1 ] ;do clear; **php bus.php**; sleep 5; done
+$ while [ 1 ] ;do clear; php bus.php; sleep 5; done
 ```
 
 ### 출력 결과
