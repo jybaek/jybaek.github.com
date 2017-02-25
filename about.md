@@ -26,7 +26,7 @@ title:  "About"
 * `Linux`, `CentOS`, `Ubuntu`
 * `MySQL`, `MongoDB`
 * `subversion`, `git`
-* `docker`, `TensorFlow`
+* `docker`, `TensorFlow`, `Cloud(aws)`
 
 ## **Interest**
 ----
