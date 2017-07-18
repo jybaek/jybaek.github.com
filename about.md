@@ -45,8 +45,13 @@ title:  "About"
 * `03-Mar-2003` University Admissions
 * `25-Feb-2010` University graduate
 * `15-Mar-2010` Join the [FutureSystems Inc.](http://www.future.co.kr) (firewall)
+* `11-Jan-2012` [splunk boot camp](http://jybaek.tistory.com/193)
+* `07-May-2013` [SPIRENT Technical Seminar](http://jybaek.tistory.com/292)
+* `23-Oct-2013` [AhnLab ISF2013](http://jybaek.tistory.com/345)
+* `07-Sep-2015` [ISEC 2015](http://jybaek.tistory.com/441)
 * `30-Sep-2015` Leave the [FutureSystems Inc.](http://www.future.co.kr) (firewall)
 * `05-Oct-2015` Join the [Jiransecurity Co.,Ltd.](https://www.jiransecurity.com) (E-mail security)
+* `20-Mar-2016` [eGiSEC 2016](http://jybaek.tistory.com/518)
 * `18-Mar-2017` [AWsome Day](http://jybaek.tistory.com/595)
 * `30-Mar-2017` [Google Cloud Onboard](http://jybaek.tistory.com/603)
 * `02-Jul-2017` [Google I/O 2017 Extended in Seoul](http://jybaek.tistory.com/655)
