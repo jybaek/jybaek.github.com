@@ -26,7 +26,7 @@ title:  "About"
 * `Linux`, `CentOS`, `Ubuntu`
 * `MySQL`, `MongoDB`
 * `subversion`, `git`
-* `docker`, `TensorFlow`, `Cloud(aws)`
+* `docker`, `TensorFlow`, `Google Cloud Platform (GCP)`
 
 ## **Interest**
 ----
@@ -47,3 +47,6 @@ title:  "About"
 * `15-Mar-2010` Join the [FutureSystems Inc.](http://www.future.co.kr) (firewall)
 * `30-Sep-2015` Leave the [FutureSystems Inc.](http://www.future.co.kr) (firewall)
 * `05-Oct-2015` Join the [Jiransecurity Co.,Ltd.](https://www.jiransecurity.com) (E-mail security)
+* `18-Mar-2017` [AWsome Day](http://jybaek.tistory.com/595)
+* `30-Mar-2017` [Google Cloud Onboard](http://jybaek.tistory.com/603)
+* `02-Jul-2017` [Google I/O 2017 Extended in Seoul](http://jybaek.tistory.com/655)
